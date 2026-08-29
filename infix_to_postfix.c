@@ -75,8 +75,24 @@ int main(){
             }
             else push(&operator, expression[i]);
         }
-        else if(expression[i] == '/') push(&operator, expression[i]);
-        else if(expression[i] == '*') push(&operator, expression[i]);
+        else if(expression[i] == '/'){
+            if(operator.occupied != 0 && *operator.top == '*'){
+                output[length++] = *operator.top;
+                output[length] = '\0';
+                pop(&operator);
+                push(&operator, expression[i]);
+            }
+            else push(&operator, expression[i]);
+        }
+        else if(expression[i] == '*'){
+            if(operator.occupied != 0 && *operator.top == '/'){
+                output[length++] = *operator.top;
+                output[length] = '\0';
+                pop(&operator);
+                push(&operator, expression[i]);
+            }
+            else push(&operator, expression[i]);
+        }
         else if(expression[i] == ')'){
             while(*operator.top != '('){
                 output[length++] = *operator.top;
