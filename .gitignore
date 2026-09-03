@@ -16,3 +16,4 @@ pqueue
 stack_struct
 double_ended_queue
 infix_to_postfix
+bubble_sort
