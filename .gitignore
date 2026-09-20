@@ -18,3 +18,4 @@ infix_to_postfix
 bubble_sort
 selection_sort
 merge_sort
+quick_sort
