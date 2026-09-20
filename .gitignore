@@ -19,3 +19,4 @@ bubble_sort
 selection_sort
 merge_sort
 quick_sort
+insertion_sort
