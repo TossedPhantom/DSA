@@ -69,7 +69,7 @@ int main(){
     int target;
     char operation;
 
-    printf("Enter:\ni: insert element at beginning\nr: remove element from beginning\nd: display element at beginning\nq: quit\n");
+    printf("Enter:\ni: insert element at beginning\nr: remove element from beginning\nd: display all elements\nq: quit\n");
     while(1){
         switch(opscan(&operation)){
             case 'i':
