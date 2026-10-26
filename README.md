@@ -5,18 +5,18 @@ A collection of Data Structures and Algorithms implemented mostly in C.
 ## Building
 
 
-To compile the whole repository at once, you may use this command in your terminal:
+To compile the whole repository at once:
 ```
 for f in *.c; do gcc "$f" -o "${f%.c}"; done
 for f in *.cpp; do g++ "$f" -o "${f%.cpp}"; done
 ```
 
-To compile `.c` files individually, you may use this command in your terminal:
+To compile `.c` files individually:
 ```
 gcc filename.c -o filename
 ```
 
-To compile `.cpp` files individually, you may use this command in your terminal:
+To compile `.cpp` files individually:
 ```
 g++ filename.cpp -o filename
 ```
