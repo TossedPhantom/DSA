@@ -1,6 +1,6 @@
 # DSA
 
-A collection of Data Structures and Algorithms implemented mostly in C.
+A collection of Data Structures and Algorithms implemented mostly in C. This is a learning repository, so the implementations are not perfect.
 
 ## Building
 
