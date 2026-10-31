@@ -25,3 +25,4 @@ linked_stack
 linked_queue
 circular_linked_list
 doubly_linked_list
+doubly_circular_linked_list
